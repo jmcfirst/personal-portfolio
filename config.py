@@ -9,7 +9,7 @@ class PersonalInfo:
         self.skills = {
             "Frontend": ["HTML5", "CSS3", "JavaScript", "React", "Vue.js"],
             "Backend": ["Python", "Node.js", "Django", "Flask", "Express"],
-            "Database": ["PostgreSQL", "MongoDB", "Redis"]
+            "Learning Database": ["PostgreSQL", "MongoDB", "Redis"]
         }
         self.experience = [{
             "title":
