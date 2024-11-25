@@ -48,6 +48,10 @@ class PersonalInfo:
             "title": "Web Application Development",
             "description": "Full-stack web application development with modern technologies",
             "technologies": ["Python", "Flask", "MongoDB"]
+        }, {
+            "title": "Small Business Full Stack Application Development",
+            "description": "Complete end-to-end web application development for small businesses, including database design, backend APIs, and responsive frontend interfaces",
+            "technologies": ["Python", "Flask", "React", "MongoDB", "MySQL"]
         }]
         self.copyright_year = "2024"
 
