@@ -1,7 +1,7 @@
 class PersonalInfo:
 
     def __init__(self):
-        self.name = "John Cosenzo Full Stack Developer"
+        self.name = "John Cosenzo"
         self.title = "Full Stack Web Development"
         self.tagline = "Grew up in Queens NY and spent many summer vacation days at Good Old Shea Stadium- Just 7 stops on the 7 train and I was there!"
         self.profile_image = "/static/images/shea.jpeg"
