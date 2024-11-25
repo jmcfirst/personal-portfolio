@@ -41,13 +41,13 @@ class PersonalInfo:
             "Continuing the tradition at Citi Field, while keeping the spirit of Shea Stadium alive. Regular attendee at home games, passing down Mets traditions to the next generation."
         }]
         self.projects = [{
-            "title": "Small First Website",
-            "description": "A full-stack small starter website",
-            "technologies": ["React", "Node.js", "MongoDB"]
+            "title": "Personal Website Development",
+            "description": "Custom website design and development tailored to your needs",
+            "technologies": ["HTML5", "CSS3", "JavaScript"]
         }, {
-            "title": "Task Management App",
-            "description": "A simple task management application",
-            "technologies": ["Vue.js", "Flask", "PostgreSQL"]
+            "title": "Web Application Development",
+            "description": "Full-stack web application development with modern technologies",
+            "technologies": ["Python", "Flask", "MongoDB"]
         }]
         self.copyright_year = "2024"
 
