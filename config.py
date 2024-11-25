@@ -3,7 +3,7 @@ class PersonalInfo:
     def __init__(self):
         self.name = "John Cosenzo"
         self.title = "Life Log New York Mets Fan"
-        self.tagline = "Grew up in Queens NY and spent many summer vacation days at Shea Stadium"
+        self.tagline = "Grew up in Queens NY and spent many summer vacation days at Good Old Shea Stadium- Just 7 stops on the 7 train and I was there!"
         self.profile_image = "/static/images/shea.jpeg"
         self.social_links = {}
         self.skills = {
@@ -41,7 +41,7 @@ class PersonalInfo:
             "Continuing the tradition at Citi Field, while keeping the spirit of Shea Stadium alive. Regular attendee at home games, passing down Mets traditions to the next generation."
         }]
         self.projects = [{
-            "title": "Small Website",
+            "title": "Small First Website",
             "description": "A full-stack small starter website",
             "technologies": ["React", "Node.js", "MongoDB"]
         }, {
