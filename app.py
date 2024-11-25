@@ -3,7 +3,6 @@ import os
 from config import PersonalInfo
 
 app = Flask(__name__)
-app.config['SERVER_NAME'] = os.environ.get('SERVER_NAME', 'johncosenzo.com')
 app.secret_key = os.environ.get("FLASK_SECRET_KEY") or "a secret key"
 personal_info = PersonalInfo()
 
