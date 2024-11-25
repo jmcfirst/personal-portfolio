@@ -7,38 +7,26 @@ class PersonalInfo:
         self.profile_image = "/static/images/shea.jpeg"
         self.social_links = {}
         self.skills = {
-            "Frontend": ["HTML5", "CSS3", "JavaScript", "React", "Vue.js"],
+            "Frontend": ["HTML5", "CSS3", "JavaScript"],
             "Backend": ["Python", "Node.js", "Django", "Flask", "Express"],
-            "Learning Database": ["PostgreSQL", "MongoDB", "Redis"]
+            "Database": ["MySQL", "MongoDB"]
         }
         self.experience = [{
-            "title":
-            "First Game at Shea Stadium",
-            "period":
-            "1986",
-            "description":
-            "Attended my first Mets game at Shea Stadium in The Summer of `1970"
+            "title": "My Shea Stadium History",
+            "period": "1986",
+            "description": "Attended my first Mets game at Shea Stadium in The Summer of 1970"
         }, {
-            "title":
-            "Attend Many Games At Shea",
-            "period":
-            "1970-1980",
-            "description":
-            "Watched Tom Seaver Pitch Many Games that he should of won, but the Mets were a weak hitting team those days"
+            "title": "Attend Many Games At Shea",
+            "period": "1970-1980",
+            "description": "Watched Tom Seaver Pitch Many Games that he should of won, but the Mets were a weak hitting team those days"
         }, {
-            "title":
-            "Shea Stadium Farewell",
-            "period":
-            "2008",
-            "description":
-            "Watched on TV the final game at Shea Stadium. An emotional day saying goodbye to a stadium that held so many memories. Watched as past Mets legends took the field one last time."
+            "title": "Shea Stadium Farewell",
+            "period": "2008",
+            "description": "Watched on TV the final game at Shea Stadium. An emotional day saying goodbye to a stadium that held so many memories. Watched as past Mets legends took the field one last time."
         }, {
-            "title":
-            "Citi Field Era",
-            "period":
-            "2009-Present",
-            "description":
-            "Continuing the tradition at Citi Field, while keeping the spirit of Shea Stadium alive. Regular attendee at home games, passing down Mets traditions to the next generation."
+            "title": "Citi Field Era",
+            "period": "2009-Present",
+            "description": "Continuing the tradition at Citi Field, while keeping the spirit of Shea Stadium alive. Regular attendee at home games, passing down Mets traditions to the next generation."
         }]
         self.projects = [{
             "title": "Small First Website",
