@@ -11,33 +11,41 @@ class PersonalInfo:
             "Backend": ["Python", "Node.js", "Django", "Flask", "Express"],
             "Database": ["PostgreSQL", "MongoDB", "Redis"]
         }
-        self.experience = [{
-            "title":
-            "Senior Developer @ Tech Corp",
-            "period":
-            "2020 - Present",
-            "description":
-            "Led development of enterprise applications and mentored junior developers."
-        }, {
-            "title":
-            "Full Stack Developer @ StartUp Inc",
-            "period":
-            "2018 - 2020",
-            "description":
-            "Developed and maintained multiple client projects using modern web technologies."
-        }]
-        self.projects = [{
-            "title": "E-commerce Platform",
-            "description":
-            "A full-stack e-commerce solution with real-time inventory management.",
-            "technologies": ["React", "Node.js", "MongoDB"]
-        }, {
-            "title": "Task Management App",
-            "description":
-            "A collaborative task management tool with real-time updates.",
-            "technologies": ["Vue.js", "Flask", "PostgreSQL"]
-        }]
-        self.copyright_year = "2023"
+        self.experience = [
+            {
+                "title": "First Game at Shea Stadium",
+                "period": "1986",
+                "description": "Attended my first Mets game at Shea Stadium during their championship season. Watched Gary Carter hit a walk-off home run against the Giants. The energy in the stadium was electric!"
+            },
+            {
+                "title": "Season Ticket Holder",
+                "period": "1990-2000",
+                "description": "Became a dedicated season ticket holder, witnessing countless memorable moments including Doc Gooden's no-hitter in 1996 and Mike Piazza's legendary performances."
+            },
+            {
+                "title": "Shea Stadium Farewell",
+                "period": "2008",
+                "description": "Attended the final game at Shea Stadium. An emotional day saying goodbye to a stadium that held so many memories. Watched as past Mets legends took the field one last time."
+            },
+            {
+                "title": "Citi Field Era",
+                "period": "2009-Present",
+                "description": "Continuing the tradition at Citi Field, while keeping the spirit of Shea Stadium alive. Regular attendee at home games, passing down Mets traditions to the next generation."
+            }
+        ]
+        self.projects = [
+            {
+                "title": "Small Website",
+                "description": "A full-stack small starter website",
+                "technologies": ["React", "Node.js", "MongoDB"]
+            },
+            {
+                "title": "Task Management App",
+                "description": "A simple task management application",
+                "technologies": ["Vue.js", "Flask", "PostgreSQL"]
+            }
+        ]
+        self.copyright_year = "2024"
 
     def get_data(self):
         return {
