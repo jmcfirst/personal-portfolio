@@ -4,7 +4,7 @@ class PersonalInfo:
         self.name = "John Cosenzo"
         self.title = "Life Log New York Mets Fan"
         self.tagline = "Grew up in Queens NY and spent many summer vacation days at Shea Stadium"
-        self.profile_image = "/static/images/placeholder.svg"
+        self.profile_image = "/static/images/shea.jpeg"
         self.social_links = {
             "github": "https://github.com",
             "linkedin": "https://linkedin.com",
