@@ -2,17 +2,17 @@
   <!-- Background Grid Pattern -->
   <defs>
     <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
-      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#00ffff" stroke-width="6" opacity="0.9"/>
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#00ffff" stroke-width="8" opacity="1.0"/>
     </pattern>
     <!-- Circuit Pattern -->
-    <pattern id="circuit" width="200" height="200" patternUnits="userSpaceOnUse">
-      <path d="M 20 100 h 60 v 60 h 60" fill="none" stroke="#00ffff" stroke-width="6" opacity="0.8"/>
-      <circle cx="160" cy="160" r="8" fill="#00ffff" opacity="0.9"/>
-      <path d="M 180 20 v 60 h -60" fill="none" stroke="#00ffff" stroke-width="6" opacity="0.8"/>
-      <circle cx="100" cy="80" r="8" fill="#00ffff" opacity="0.9"/>
+    <pattern id="circuit" width="240" height="240" patternUnits="userSpaceOnUse">
+      <path d="M 24 120 h 72 v 72 h 72" fill="none" stroke="#00ccff" stroke-width="8" opacity="1.0"/>
+      <circle cx="192" cy="192" r="10" fill="#00ffff" opacity="1.0"/>
+      <path d="M 216 24 v 72 h -72" fill="none" stroke="#00ccff" stroke-width="8" opacity="1.0"/>
+      <circle cx="120" cy="96" r="10" fill="#00ffff" opacity="1.0"/>
       <!-- Additional circuit elements -->
-      <path d="M 20 20 h 40 v 40" fill="none" stroke="#00ffff" stroke-width="6" opacity="0.9"/>
-      <circle cx="60" cy="60" r="8" fill="#00ffff" opacity="0.9"/>
+      <path d="M 24 24 h 48 v 48" fill="none" stroke="#00ccff" stroke-width="8" opacity="1.0"/>
+      <circle cx="72" cy="72" r="10" fill="#00ffff" opacity="1.0"/>
     </pattern>
   </defs>
   
@@ -24,12 +24,12 @@
   <rect width="100%" height="100%" fill="url(#circuit)"/>
   
   <!-- Abstract Computer Elements -->
-  <g transform="translate(300,200)" opacity="0.8">
+  <g transform="translate(240,160)" opacity="1.0">
     <!-- Monitor -->
-    <rect x="0" y="0" width="600" height="400" rx="20" fill="none" stroke="#0099ff" stroke-width="8"/>
+    <rect x="0" y="0" width="720" height="480" rx="24" fill="none" stroke="#00ccff" stroke-width="8"/>
     
     <!-- Screen -->
-    <rect x="40" y="40" width="520" height="320" fill="#0080ff" opacity="0.6"/>
+    <rect x="48" y="48" width="624" height="384" fill="#00ccff" opacity="1.0"/>
     
     <!-- Code Lines -->
     <g fill="#ffffff">
