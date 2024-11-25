@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Background Grid Pattern -->
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#2C3E50" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#1a1e24"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  
+  <!-- Abstract Computer Elements -->
+  <g transform="translate(300,200)" opacity="0.15">
+    <!-- Monitor -->
+    <rect x="0" y="0" width="600" height="400" rx="20" fill="none" stroke="#3498db" stroke-width="4"/>
+    <!-- Screen -->
+    <rect x="40" y="40" width="520" height="320" fill="#2980b9" opacity="0.2"/>
+    <!-- Code Lines -->
+    <g fill="#ecf0f1">
+      <rect x="60" y="60" width="200" height="4" opacity="0.5"/>
+      <rect x="60" y="80" width="300" height="4" opacity="0.3"/>
+      <rect x="60" y="100" width="250" height="4" opacity="0.4"/>
+      <rect x="60" y="120" width="180" height="4" opacity="0.6"/>
+    </g>
+    <!-- Circuit Board Pattern -->
+    <path d="M0 350 Q 300 380 600 350" stroke="#27ae60" fill="none" stroke-width="2"/>
+    <path d="M0 360 Q 300 330 600 360" stroke="#2ecc71" fill="none" stroke-width="2"/>
+  </g>
+</svg>
