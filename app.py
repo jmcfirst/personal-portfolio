@@ -4,11 +4,6 @@ from config import PersonalInfo
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY") or "a secret key"
-
-# Only set SERVER_NAME in production
-if os.environ.get('FLASK_ENV') == 'production':
-    app.config['SERVER_NAME'] = 'johncosenzo.com'
-
 personal_info = PersonalInfo()
 
 @app.route('/')
