@@ -2,27 +2,50 @@
   <!-- Background Grid Pattern -->
   <defs>
     <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
-      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#2C3E50" stroke-width="0.5" opacity="0.3"/>
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#0066cc" stroke-width="1" opacity="0.4"/>
+    </pattern>
+    <!-- Circuit Pattern -->
+    <pattern id="circuit" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 10 50 h 30 v 30 h 30" fill="none" stroke="#0066cc" stroke-width="2" opacity="0.3"/>
+      <circle cx="80" cy="80" r="3" fill="#0066cc" opacity="0.4"/>
+      <path d="M 90 10 v 30 h -30" fill="none" stroke="#004c99" stroke-width="2" opacity="0.3"/>
+      <circle cx="50" cy="40" r="3" fill="#004c99" opacity="0.4"/>
     </pattern>
   </defs>
+  
+  <!-- Base Background -->
   <rect width="100%" height="100%" fill="#1a1e24"/>
+  
+  <!-- Layered Patterns -->
   <rect width="100%" height="100%" fill="url(#grid)"/>
+  <rect width="100%" height="100%" fill="url(#circuit)"/>
   
   <!-- Abstract Computer Elements -->
-  <g transform="translate(300,200)" opacity="0.15">
+  <g transform="translate(300,200)" opacity="0.3">
     <!-- Monitor -->
-    <rect x="0" y="0" width="600" height="400" rx="20" fill="none" stroke="#3498db" stroke-width="4"/>
+    <rect x="0" y="0" width="600" height="400" rx="20" fill="none" stroke="#0066cc" stroke-width="6"/>
+    
     <!-- Screen -->
-    <rect x="40" y="40" width="520" height="320" fill="#2980b9" opacity="0.2"/>
+    <rect x="40" y="40" width="520" height="320" fill="#004c99" opacity="0.3"/>
+    
     <!-- Code Lines -->
-    <g fill="#ecf0f1">
-      <rect x="60" y="60" width="200" height="4" opacity="0.5"/>
-      <rect x="60" y="80" width="300" height="4" opacity="0.3"/>
-      <rect x="60" y="100" width="250" height="4" opacity="0.4"/>
-      <rect x="60" y="120" width="180" height="4" opacity="0.6"/>
+    <g fill="#ffffff">
+      <rect x="60" y="60" width="200" height="4" opacity="0.7"/>
+      <rect x="60" y="80" width="300" height="4" opacity="0.5"/>
+      <rect x="60" y="100" width="250" height="4" opacity="0.6"/>
+      <rect x="60" y="120" width="180" height="4" opacity="0.8"/>
     </g>
-    <!-- Circuit Board Pattern -->
-    <path d="M0 350 Q 300 380 600 350" stroke="#27ae60" fill="none" stroke-width="2"/>
-    <path d="M0 360 Q 300 330 600 360" stroke="#2ecc71" fill="none" stroke-width="2"/>
+    
+    <!-- Enhanced Circuit Board Patterns -->
+    <path d="M0 350 Q 300 380 600 350" stroke="#004c99" fill="none" stroke-width="3"/>
+    <path d="M0 360 Q 300 330 600 360" stroke="#0066cc" fill="none" stroke-width="3"/>
+    <path d="M0 370 Q 150 390 300 370 Q 450 350 600 370" stroke="#004c99" fill="none" stroke-width="3"/>
+    
+    <!-- Additional Circuit Elements -->
+    <g opacity="0.4">
+      <circle cx="150" cy="350" r="5" fill="#0066cc"/>
+      <circle cx="300" cy="360" r="5" fill="#0066cc"/>
+      <circle cx="450" cy="350" r="5" fill="#0066cc"/>
+    </g>
   </g>
 </svg>
