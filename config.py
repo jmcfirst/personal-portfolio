@@ -15,7 +15,7 @@ class PersonalInfo:
             "title":
             "My Shea Stadium History",
             "period":
-            "",
+            "1970",
             "description":
             "Attended my first Mets game at Shea Stadium in The Summer of 1970"
         }, {
