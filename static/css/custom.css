@@ -48,6 +48,16 @@ html {
     background-repeat: no-repeat !important;
     min-height: 100vh;
 }
+/* Contact section */
+#contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+                url('../images/contact.svg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 
 /* Skills */
 .skill-card {

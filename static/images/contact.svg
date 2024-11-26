@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Background Patterns -->
+  <defs>
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#00ffff" stroke-width="2" opacity="0.5">
+        <animate attributeName="stroke-opacity" values="0.5;0.3;0.5" dur="4s" repeatCount="indefinite"/>
+      </path>
+    </pattern>
+
+    <!-- Message Pattern -->
+    <pattern id="messages" width="300" height="300" patternUnits="userSpaceOnUse">
+      <!-- Email Icon -->
+      <rect x="50" y="50" width="200" height="150" rx="10" fill="none" stroke="#00ffff" stroke-width="4">
+        <animate attributeName="stroke-opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M50 70 L150 120 L250 70" fill="none" stroke="#00ffff" stroke-width="4"/>
+      
+      <!-- API Endpoint Symbol -->
+      <g transform="translate(100,250)">
+        <path d="M0,0 L30,0 L40,10 L30,20 L0,20 Z" fill="none" stroke="#00ffff" stroke-width="2">
+          <animate attributeName="stroke-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+        </path>
+        <text x="10" y="15" font-family="monospace" fill="#00ffff" font-size="12">API</text>
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="100%" height="100%" fill="#1a1e24"/>
+  
+  <!-- Pattern Layers -->
+  <rect width="100%" height="100%" fill="url(#grid)" opacity="0.3"/>
+  <rect width="100%" height="100%" fill="url(#messages)" opacity="0.5"/>
+
+  <!-- Large Contact Elements -->
+  <g transform="translate(200,100)" opacity="1.0">
+    <!-- Large Email Icon -->
+    <rect x="0" y="0" width="400" height="300" rx="20" fill="none" stroke="#00ffff" stroke-width="8">
+      <animate attributeName="stroke-opacity" values="1;0.7;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M0 40 L200 140 L400 40" fill="none" stroke="#00ffff" stroke-width="8"/>
+    
+    <!-- Message Queue Visualization -->
+    <g transform="translate(500,50)">
+      <rect x="0" y="0" width="300" height="60" rx="10" fill="none" stroke="#00ffff" stroke-width="4"/>
+      <circle cx="30" cy="30" r="10" fill="#00ffff">
+        <animate attributeName="cx" values="30;270;30" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="120" y="35" font-family="monospace" fill="#00ffff" font-size="16">MESSAGE QUEUE</text>
+    </g>
+
+    <!-- Connection Lines -->
+    <path d="M400 150 Q 450 150 500 80" fill="none" stroke="#00ffff" stroke-width="4" stroke-dasharray="10,5">
+      <animate attributeName="stroke-opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Tech Symbols -->
+  <g transform="translate(100,500)">
+    <!-- REST API Symbol -->
+    <rect x="0" y="0" width="200" height="100" rx="10" fill="none" stroke="#00ffff" stroke-width="4"/>
+    <text x="70" y="55" font-family="monospace" fill="#00ffff" font-size="24">REST API</text>
+    
+    <!-- WebSocket Symbol -->
+    <g transform="translate(300,0)">
+      <path d="M0,50 Q 100,0 200,50" fill="none" stroke="#00ffff" stroke-width="4">
+        <animate attributeName="d" values="M0,50 Q 100,0 200,50;M0,50 Q 100,100 200,50;M0,50 Q 100,0 200,50" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <text x="50" y="80" font-family="monospace" fill="#00ffff" font-size="24">WebSocket</text>
+    </g>
+  </g>
+</svg>
