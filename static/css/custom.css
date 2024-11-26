@@ -59,13 +59,32 @@ html {
 }
 
 
-/* Skills */
+/* Skills section */
+#skills {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+                url('../images/skills.svg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: var(--bs-light);
+    padding: 4rem 0;
+}
+
 .skill-card {
     transition: transform 0.3s ease;
+    background: rgba(26, 30, 36, 0.8);
+    border: 1px solid rgba(0, 255, 255, 0.1);
 }
 
 .skill-card:hover {
     transform: translateY(-5px);
+    border-color: rgba(0, 255, 255, 0.3);
+}
+
+.skill-card .card-body {
+    position: relative;
+    z-index: 1;
 }
 
 /* Projects */
