@@ -41,10 +41,12 @@ html {
 /* Projects/Services section */
 #projects {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
-                url('../images/computer.svg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+                url('../images/computer.svg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    min-height: 100vh;
 }
 
 /* Skills */
