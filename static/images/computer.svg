@@ -2,11 +2,11 @@
   <!-- Enhanced Background Patterns -->
   <defs>
     <!-- Enhanced Grid Pattern -->
-    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
-      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#00ffff" stroke-width="8" opacity="1.0">
+    <pattern id="grid" width="200" height="200" patternUnits="userSpaceOnUse">
+      <path d="M 200 0 L 0 0 0 200" fill="none" stroke="#00ffff" stroke-width="12" opacity="1.0">
         <animate attributeName="stroke-opacity" values="1;0.7;1" dur="4s" repeatCount="indefinite"/>
       </path>
-      <path d="M 50 0 L 50 100 M 0 50 L 100 50" fill="none" stroke="#00ffff" stroke-width="4" opacity="1.0">
+      <path d="M 100 0 L 100 200 M 0 100 L 200 100" fill="none" stroke="#00ffff" stroke-width="8" opacity="1.0">
         <animate attributeName="stroke-opacity" values="1;0.7;1" dur="4s" begin="2s" repeatCount="indefinite"/>
       </path>
       <!-- Additional grid elements -->
@@ -74,7 +74,7 @@
   <!-- Enhanced Web Development Elements -->
   <g transform="translate(150,90)" opacity="1.0">
     <!-- Browser Window -->
-    <rect x="0" y="0" width="1125" height="750" rx="8" fill="none" stroke="#00ffff" stroke-width="8">
+    <rect x="0" y="0" width="2250" height="1500" rx="16" fill="none" stroke="#00ffff" stroke-width="12">
       <animate attributeName="stroke-opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite"/>
     </rect>
     
