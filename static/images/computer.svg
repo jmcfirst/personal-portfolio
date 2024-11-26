@@ -44,9 +44,11 @@
   <rect width="100%" height="100%" fill="url(#code)" opacity="0.4"/>
   
   <!-- Enhanced Web Development Elements -->
-  <g transform="translate(200,120)" opacity="1.0">
+  <g transform="translate(150,90)" opacity="1.0">
     <!-- Browser Window -->
-    <rect x="0" y="0" width="900" height="600" rx="8" fill="none" stroke="#00f7ff" stroke-width="6"/>
+    <rect x="0" y="0" width="1125" height="750" rx="8" fill="none" stroke="#00ffff" stroke-width="8">
+      <animate attributeName="stroke-opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
     
     <!-- Browser Header -->
     <rect x="0" y="0" width="720" height="40" rx="8" fill="#00ccff" opacity="0.2"/>
@@ -59,12 +61,14 @@
     <text x="120" y="25" font-family="monospace" fill="#00ffff" opacity="0.8" font-size="14">https://www.example.com</text>
     
     <!-- Code Editor -->
-    <rect x="48" y="60" width="624" height="400" fill="#1a1e24" opacity="0.9"/>
+    <rect x="60" y="75" width="780" height="500" fill="#1a1e24" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.8;0.9" dur="4s" repeatCount="indefinite"/>
+    </rect>
     
     <!-- Enhanced Code Content -->
     <g fill="#ffffff">
       <!-- HTML-like code -->
-      <text x="60" y="90" font-family="monospace" fill="#00ffff" opacity="0.8" font-size="12">&lt;div class="container"&gt;</text>
+      <text x="75" y="112" font-family="monospace" fill="#00ffff" opacity="1.0" font-size="24">&lt;div class="container"&gt;</text>
       <text x="80" y="110" font-family="monospace" fill="#ffffff" opacity="0.7" font-size="12">&lt;header class="main-header"&gt;</text>
       <text x="100" y="130" font-family="monospace" fill="#00ccff" opacity="0.6" font-size="12">&lt;nav&gt;Menu&lt;/nav&gt;</text>
       <text x="80" y="150" font-family="monospace" fill="#ffffff" opacity="0.7" font-size="12">&lt;/header&gt;</text>
@@ -82,15 +86,33 @@
     <path d="M0 360 Q 300 330 600 360" stroke="#00ccff" fill="none" stroke-width="6"/>
     <path d="M0 370 Q 150 390 300 370 Q 450 350 600 370" stroke="#0080ff" fill="none" stroke-width="6"/>
     
-    <!-- Additional Circuit Elements -->
-    <g opacity="0.8">
-      <circle cx="150" cy="350" r="8" fill="#00ccff"/>
-      <circle cx="300" cy="360" r="8" fill="#0099ff"/>
-      <circle cx="450" cy="350" r="8" fill="#00ccff"/>
-      <!-- New connection points -->
-      <circle cx="200" cy="355" r="8" fill="#0099ff"/>
-      <circle cx="350" cy="365" r="8" fill="#00ccff"/>
-      <circle cx="500" cy="355" r="8" fill="#0099ff"/>
+    <!-- Additional Circuit Elements with Pulsing Animation -->
+    <g opacity="1.0">
+      <circle cx="150" cy="350" r="10" fill="#00ffff">
+        <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="300" cy="360" r="10" fill="#00ffff">
+        <animate attributeName="r" values="10;12;10" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.8;1" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="450" cy="350" r="10" fill="#00ffff">
+        <animate attributeName="r" values="10;12;10" dur="2s" begin="1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.8;1" dur="2s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <!-- New connection points with animations -->
+      <circle cx="200" cy="355" r="10" fill="#00ffff">
+        <animate attributeName="r" values="10;12;10" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.8;1" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="350" cy="365" r="10" fill="#00ffff">
+        <animate attributeName="r" values="10;12;10" dur="2s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.8;1" dur="2s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="500" cy="355" r="10" fill="#00ffff">
+        <animate attributeName="r" values="10;12;10" dur="2s" begin="1.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.8;1" dur="2s" begin="1.3s" repeatCount="indefinite"/>
+      </circle>
     </g>
 
     <!-- Additional Tech Elements -->
