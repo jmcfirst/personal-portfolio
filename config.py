@@ -38,19 +38,23 @@ class PersonalInfo:
             "period":
             "2009-Present",
             "description":
-            "Continuing the tradition at Citi Field, while keeping the spirit of Shea Stadium alive. Regular attendee at home games, passing down Mets traditions to the next generation."
+            "Continuing the tradition at Citi Field, while keeping the spirit of Shea Stadium alive. Catch games on MLB Extra Innings Cable Package, helping to pass down Mets traditions to the next generation."
         }]
         self.projects = [{
             "title": "Personal Website Development",
-            "description": "Custom website design and development tailored to your needs",
+            "description":
+            "Custom website design and development tailored to your needs",
             "technologies": ["HTML5", "CSS3", "JavaScript"]
         }, {
             "title": "Web Application Development",
-            "description": "Full-stack web application development with modern technologies",
+            "description":
+            "Full-stack web application development with modern technologies",
             "technologies": ["Python", "Flask", "MongoDB"]
         }, {
-            "title": "Small Business Full Stack Application Development",
-            "description": "Complete end-to-end web application development for small businesses, including database design, backend APIs, and responsive frontend interfaces",
+            "title":
+            "Small Business Full Stack Application Development",
+            "description":
+            "Complete end-to-end web application development for small businesses, including database design, backend APIs, and responsive frontend interfaces",
             "technologies": ["Python", "Flask", "React", "MongoDB", "MySQL"]
         }]
         self.copyright_year = "2024"

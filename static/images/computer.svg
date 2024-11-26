@@ -1,45 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
-  <!-- Background Grid Pattern -->
+  <!-- Enhanced Background Patterns -->
   <defs>
+    <!-- Grid Pattern -->
     <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
-      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#00ffff" stroke-width="8" opacity="1.0"/>
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#00ffff" stroke-width="4" opacity="0.5"/>
+      <path d="M 50 0 L 50 100 M 0 50 L 100 50" fill="none" stroke="#00ffff" stroke-width="2" opacity="0.3"/>
     </pattern>
-    <!-- Circuit Pattern -->
+    
+    <!-- Enhanced Circuit Pattern -->
     <pattern id="circuit" width="240" height="240" patternUnits="userSpaceOnUse">
-      <path d="M 24 120 h 72 v 72 h 72" fill="none" stroke="#00ccff" stroke-width="8" opacity="1.0"/>
-      <circle cx="192" cy="192" r="10" fill="#00ffff" opacity="1.0"/>
-      <path d="M 216 24 v 72 h -72" fill="none" stroke="#00ccff" stroke-width="8" opacity="1.0"/>
-      <circle cx="120" cy="96" r="10" fill="#00ffff" opacity="1.0"/>
-      <!-- Additional circuit elements -->
-      <path d="M 24 24 h 48 v 48" fill="none" stroke="#00ccff" stroke-width="8" opacity="1.0"/>
-      <circle cx="72" cy="72" r="10" fill="#00ffff" opacity="1.0"/>
+      <!-- Original circuits -->
+      <path d="M 24 120 h 72 v 72 h 72" fill="none" stroke="#00ccff" stroke-width="4" opacity="0.8"/>
+      <circle cx="192" cy="192" r="6" fill="#00ffff" opacity="0.8"/>
+      <path d="M 216 24 v 72 h -72" fill="none" stroke="#00ccff" stroke-width="4" opacity="0.8"/>
+      <circle cx="120" cy="96" r="6" fill="#00ffff" opacity="0.8"/>
+      
+      <!-- Web development symbols -->
+      <text x="40" y="40" font-family="monospace" fill="#00ffff" opacity="0.6" font-size="14">&lt;/&gt;</text>
+      <text x="160" y="160" font-family="monospace" fill="#00ffff" opacity="0.6" font-size="14">{}</text>
+      <text x="200" y="80" font-family="monospace" fill="#00ffff" opacity="0.6" font-size="14">$()</text>
+      
+      <!-- Additional tech patterns -->
+      <path d="M 0 0 h 20 l 10 10 l 10 -10 h 20" fill="none" stroke="#00ccff" stroke-width="2" opacity="0.5"/>
+      <path d="M 120 220 q 20 -20 40 0 q 20 20 40 0" fill="none" stroke="#00ccff" stroke-width="2" opacity="0.5"/>
+    </pattern>
+    
+    <!-- New Code Pattern -->
+    <pattern id="code" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="80" height="10" fill="#00ccff" opacity="0.3"/>
+      <rect x="10" y="30" width="160" height="10" fill="#00ccff" opacity="0.2"/>
+      <rect x="10" y="50" width="120" height="10" fill="#00ccff" opacity="0.3"/>
+      <text x="100" y="100" font-family="monospace" fill="#00ffff" opacity="0.4" font-size="14">function()</text>
+      <text x="100" y="120" font-family="monospace" fill="#00ffff" opacity="0.4" font-size="14">return {}</text>
     </pattern>
   </defs>
   
-  <!-- Base Background -->
+  <!-- Enhanced Base Background -->
   <rect width="100%" height="100%" fill="#1a1e24"/>
   
-  <!-- Layered Patterns -->
-  <rect width="100%" height="100%" fill="url(#grid)"/>
-  <rect width="100%" height="100%" fill="url(#circuit)"/>
+  <!-- Layered Enhanced Patterns -->
+  <rect width="100%" height="100%" fill="url(#grid)" opacity="0.3"/>
+  <rect width="100%" height="100%" fill="url(#circuit)" opacity="0.5"/>
+  <rect width="100%" height="100%" fill="url(#code)" opacity="0.4"/>
   
-  <!-- Abstract Computer Elements -->
-  <g transform="translate(240,160)" opacity="1.0">
-    <!-- Monitor -->
-    <rect x="0" y="0" width="720" height="480" rx="24" fill="none" stroke="#00ccff" stroke-width="8"/>
+  <!-- Enhanced Web Development Elements -->
+  <g transform="translate(240,160)" opacity="0.9">
+    <!-- Browser Window -->
+    <rect x="0" y="0" width="720" height="480" rx="8" fill="none" stroke="#00ccff" stroke-width="4"/>
     
-    <!-- Screen -->
-    <rect x="48" y="48" width="624" height="384" fill="#00ccff" opacity="1.0"/>
+    <!-- Browser Header -->
+    <rect x="0" y="0" width="720" height="40" rx="8" fill="#00ccff" opacity="0.2"/>
+    <circle cx="25" cy="20" r="6" fill="#ff605c"/>
+    <circle cx="45" cy="20" r="6" fill="#ffbd44"/>
+    <circle cx="65" cy="20" r="6" fill="#00ca4e"/>
     
-    <!-- Code Lines -->
+    <!-- URL Bar -->
+    <rect x="100" y="10" width="500" height="20" rx="4" fill="#ffffff" opacity="0.1"/>
+    <text x="120" y="25" font-family="monospace" fill="#00ffff" opacity="0.8" font-size="14">https://www.example.com</text>
+    
+    <!-- Code Editor -->
+    <rect x="48" y="60" width="624" height="400" fill="#1a1e24" opacity="0.9"/>
+    
+    <!-- Enhanced Code Content -->
     <g fill="#ffffff">
-      <rect x="60" y="60" width="200" height="6" opacity="0.8"/>
-      <rect x="60" y="80" width="300" height="6" opacity="0.7"/>
-      <rect x="60" y="100" width="250" height="6" opacity="0.8"/>
-      <rect x="60" y="120" width="180" height="6" opacity="0.9"/>
-      <!-- Additional code lines -->
-      <rect x="60" y="140" width="280" height="6" opacity="0.8"/>
-      <rect x="60" y="160" width="220" height="6" opacity="0.7"/>
+      <!-- HTML-like code -->
+      <text x="60" y="90" font-family="monospace" fill="#00ffff" opacity="0.8" font-size="12">&lt;div class="container"&gt;</text>
+      <text x="80" y="110" font-family="monospace" fill="#ffffff" opacity="0.7" font-size="12">&lt;header class="main-header"&gt;</text>
+      <text x="100" y="130" font-family="monospace" fill="#00ccff" opacity="0.6" font-size="12">&lt;nav&gt;Menu&lt;/nav&gt;</text>
+      <text x="80" y="150" font-family="monospace" fill="#ffffff" opacity="0.7" font-size="12">&lt;/header&gt;</text>
+      
+      <!-- JavaScript-like code -->
+      <text x="60" y="190" font-family="monospace" fill="#ffbd44" opacity="0.8" font-size="12">function handleSubmit() {</text>
+      <text x="80" y="210" font-family="monospace" fill="#00ca4e" opacity="0.7" font-size="12">return async (event) => {</text>
+      <text x="100" y="230" font-family="monospace" fill="#ffffff" opacity="0.6" font-size="12">const data = await fetch('/api');</text>
+      <text x="80" y="250" font-family="monospace" fill="#00ca4e" opacity="0.7" font-size="12">};</text>
+      <text x="60" y="270" font-family="monospace" fill="#ffbd44" opacity="0.8" font-size="12">}</text>
     </g>
     
     <!-- Enhanced Circuit Board Patterns -->
